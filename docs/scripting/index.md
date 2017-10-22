@@ -1,5 +1,5 @@
 Scripting
----------
+=========
     
 ### Java 
 
@@ -13,7 +13,7 @@ You can't, though, write a script in Java language itself. See
 
 ### Scala
 
-[`ls-scala`](https://github.com/naderghanbari/scala-vs-java/blob/master/src/scripts/ls-scala.scala)
+[`ls-scala`](https://github.com/naderghanbari/scala-vs-java/blob/master/scripts/ls-scala.scala)
 
 ```scala
 import java.{io, util}
@@ -49,7 +49,7 @@ See [Ammonite](http://ammonite.io/#Ammonite-Shell) for a typed Scripting API res
 [Groovy](http://groovy-lang.org/structure.html#_scripts_versus_classes) is an optionally-typed dynamic JVM-based 
 language fully compatible with Java. It is a general purpose language with scripting support by design.
 
-[`ls-groovy`](https://github.com/naderghanbari/scala-vs-java/blob/master/src/scripts/ls-groovy)
+[`ls-groovy`](https://github.com/naderghanbari/scala-vs-java/blob/master/scripts/ls-groovy)
 
 ```groovy
 dir = args ? args[0] : "."

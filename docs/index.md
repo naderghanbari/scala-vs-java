@@ -1,6 +1,9 @@
 Table of contents
------------------
+=================
 
-- [Scripting](scripting)    
-- [Syntax](syntax)
-  - [Semicolons](syntax/semicolons)
+- [Scripting](scripting/index.md)    
+- [Syntax](syntax/index.md)
+  - [Semicolons](syntax/semicolons.md)
+  - [Parameters](syntax/parameters/index.md)
+    - [Default Parameters](syntax/parameters/default.md)
+    - [Named Parameters](syntax/parameters/named.md)

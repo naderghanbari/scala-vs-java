@@ -1,4 +1,7 @@
 Syntax
-------
+======
     
-- [Semicolons](semicolons)
+- [Semicolons](semicolons.md)
+- [Parameters](parameters/index.md)
+  - [Default Parameters](parameters/default.md)
+  - [Named Parameters](parameters/named.md)

@@ -5,24 +5,23 @@ Semicolons
 
 [`Semicolons.java`](https://github.com/naderghanbari/scala-vs-java/blob/master/src/main/java/syntax/semicolons/java/Semicolons.java)
 
-{% highlight java %}
+```java
 String message = "Error occurred!";
 Boolean shouldNotifyUser = config.isNotificationEnabled();
 if (shouldNotifyUser) {
     notifyUser(currentUser, message);
 }
-{% endhighlight %}
+```
 
 ### Scala 
 
 [`Semicolons.scala`](https://github.com/naderghanbari/scala-vs-java/blob/master/src/main/scala/syntax/semicolons/scala/Semicolons.scala)
 
-{% highlight scala %}
+```scala
 val message = "Error occurred!"
 val shouldNotifyUser = config.notificationEnabled
 if (shouldNotifyUser) notifyUser(currentUser, message)
-{% endhighlight %}
-
+```
 
 Semicolons are optional (read as **not needed**) in Scala.
 

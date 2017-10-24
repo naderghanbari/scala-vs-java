@@ -1,7 +1,8 @@
 Table of contents
 =================
 
-- [Scripting](scripting/index.md)    
+- [Scripting](scripting/index.md)
+- [REPL](repl/index.md)
 - [Syntax](syntax/index.md)
   - [Semicolons](syntax/semicolons.md)
   - [Parameters](syntax/parameters/index.md)

@@ -5,4 +5,5 @@ Syntax
 - [Parameters](parameters/index.md)
   - [Default Parameters](parameters/default.md)
   - [Named Parameters](parameters/named.md)
-  - [Implicit parameters](parameters/implicit.md)
+  - [Grouped Parameters](parameters/grouped.md)
+  - [Implicit parameters](parameters/implicits.md)

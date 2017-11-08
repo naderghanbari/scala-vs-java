@@ -8,4 +8,5 @@ Table of contents
   - [Parameters](syntax/parameters/index.md)
     - [Default Parameters](syntax/parameters/default.md)
     - [Named Parameters](syntax/parameters/named.md)
-    - [Implicit parameters](syntax/parameters/implicit.md)
+    - [Grouped Parameters](syntax/parameters/grouped.md)
+    - [Implicit parameters](syntax/parameters/implicits.md)

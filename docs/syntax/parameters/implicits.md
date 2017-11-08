@@ -33,12 +33,14 @@ implicit parameters in Scala shortly.
 
 ### Scala
 
-[`ImplicitParameters.scala`](https://github.com/naderghanbari/scala-vs-java/blob/master/src/main/scala/syntax/parameters/named/scala/ImplicitParameters.scala)
+[`ImplicitParameters.scala`](https://github.com/naderghanbari/scala-vs-java/blob/master/src/main/scala/syntax/parameters/implicits/scala/ImplicitParameters.scala)
 
 ```scala
- trait Service {
-   def userHasAccessTo(department: String)(implicit currentUser: User): Boolean
- }
+trait Service {
+  def userHasAccessTo(department: String)(implicit currentUser: User): Boolean
+
+  def findPurchasesByDepartment(department: String)(implicit timeZone: TimeZone): Any
+}
 
  trait Controller {
    def service: Service
@@ -64,6 +66,7 @@ if there is a leading `implicit` keyword. For instance in the above
 example both `currentUser` and `timeZone` are implicit parameters.
 There can be only one such group of implicit parameters and it should
 always be the last group of arguments.
+See [Grouped Parameters](grouped.md) for more info about grouping.
 
 #### Fact
 A very important advantage of implicits is that compile will prove the
@@ -95,7 +98,7 @@ sometimes for testing purposes, for instance in unit tests.
 #### More examples
 If you are interested in knowing more about implicit parameters right now,
 take a look at the definition of
-[Array#sorted](http://www.scala-lang.org/api/2.12.3/scala/Array.html#sorted[B>:A](implicitord:scala.math.Ordering[B]):Repr)
+[Array#sorted](http://www.scala-lang.org/api/2.12.4/scala/Array.html#sorted[B>:A](implicitord:scala.math.Ordering[B]):Repr)
 method. You will see that the ordering (logic or algorithm to compare two
 objects of the same type) is being passed implicitly. So you can
 do the following

@@ -13,3 +13,4 @@ Table of contents
     - [Grouped Parameters](syntax/parameters/grouped.md)
     - [Implicit parameters](syntax/parameters/implicits.md)
     - [Class parameters](syntax/parameters/class.md)
+  - [Tuples](syntax/tuples.md)

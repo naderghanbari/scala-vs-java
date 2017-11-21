@@ -21,7 +21,7 @@ def divisibleBy(n: Int)(x: Int) = (x % n) == 0
 
 divisibleBy(5)(10)
 
-val divisibleByFive = divisibleBy(5)
+val divisibleByFive = divisibleBy(5)(_)
 
 divisibleByFive(10)
 
@@ -42,7 +42,7 @@ in the next section.
 1. `Currying`
    - A powerful technique that we will see shortly. If you want
    to know a bit more about it right now just look at the example above. The
-   `divisibleBy(5)` is an example of currying. As you see we're passing only
+   `divisibleBy(5)(_)` is an example of currying. As you see we're passing only
    the first group of arguments and we leave the second group `(x:Int )`.
 1. Type inference
    - Sometimes in order to improve type inference we have to group parameters.

@@ -10,7 +10,7 @@ object GroupedParameters extends App {
   println(res1)
 
   // currying
-  val divisibleByFive = divisibleBy(5)
+  val divisibleByFive = divisibleBy(5)(_)
 
   // applying the curried function
   private val res2 = divisibleByFive(10)
@@ -21,6 +21,6 @@ object GroupedParameters extends App {
 
   // Passing multiple varargs
   val sum = multiSum(1, 2, 3)(4, 5, 6, 7, 9)(10, 11)
-  println(multiSum())
+  println(sum)
 
 }

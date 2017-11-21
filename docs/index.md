@@ -12,3 +12,4 @@ Table of contents
     - [Named Parameters](syntax/parameters/named.md)
     - [Grouped Parameters](syntax/parameters/grouped.md)
     - [Implicit parameters](syntax/parameters/implicits.md)
+    - [Class parameters](syntax/parameters/class.md)

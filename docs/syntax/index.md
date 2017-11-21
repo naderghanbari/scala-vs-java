@@ -7,3 +7,4 @@ Syntax
   - [Named Parameters](parameters/named.md)
   - [Grouped Parameters](parameters/grouped.md)
   - [Implicit parameters](parameters/implicits.md)
+  - [Class parameters](parameters/class.md)
